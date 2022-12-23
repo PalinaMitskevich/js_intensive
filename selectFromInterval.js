@@ -12,3 +12,5 @@ const selectFromInterval = (numbers, firstIntervalValue, secondIntervalValue) =>
 
   return numbers.filter((number) => number >= min && number <= max)
 }
+
+//Т.к. функция итерируется по массиву один раз, то сложность функции - О(n)
