@@ -14,4 +14,4 @@ const notation = () => {
   console.log(parseInt(value1, +value2))
 }
 
-
+notation()
