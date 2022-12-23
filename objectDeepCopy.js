@@ -18,3 +18,5 @@ const makeObjectDeepCopy = (obj) => {
 
   return copy
 }
+
+// Т.к. функция рекурсивная, то сложность функции - О(n^2)
